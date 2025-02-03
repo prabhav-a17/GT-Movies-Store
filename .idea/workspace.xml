@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="595ca71b-4711-47c6-8b58-a350f4d632aa" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/moviesstore/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/moviesstore/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moviesstore/moviesstore/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/moviesstore/moviesstore/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moviesstore/moviesstore/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/moviesstore/moviesstore/urls.py" afterDir="false" />
-    </list>
+    <list default="true" id="595ca71b-4711-47c6-8b58-a350f4d632aa" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -238,7 +234,7 @@
       <updated>1738105092292</updated>
       <workItem from="1738105093415" duration="1323000" />
       <workItem from="1738387961826" duration="2447000" />
-      <workItem from="1738390762214" duration="4130000" />
+      <workItem from="1738390762214" duration="4444000" />
     </task>
     <servers />
   </component>
