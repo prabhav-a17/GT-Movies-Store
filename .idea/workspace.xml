@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="595ca71b-4711-47c6-8b58-a350f4d632aa" name="Changes" comment="Chapter4/5">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moviesstore/movies/templates/movies/edit_review.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/GT-Movies-Store.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GT-Movies-Store.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moviesstore/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/moviesstore/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moviesstore/movies/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/moviesstore/movies/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moviesstore/movies/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/moviesstore/movies/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moviesstore/movies/templates/movies/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/moviesstore/movies/templates/movies/show.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moviesstore/movies/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/moviesstore/movies/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moviesstore/movies/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/moviesstore/movies/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="595ca71b-4711-47c6-8b58-a350f4d632aa" name="Changes" comment="Chapter4/5" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,23 +44,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/riyasoneji/Dropbox/CS2340/GT-Movies-Store",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/riyasoneji/Dropbox/CS2340/GT-Movies-Store&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="GT-Movies-Store" type="Python.DjangoServer" factoryName="Django server">
       <module name="GT-Movies-Store" />
@@ -119,6 +107,7 @@
       <workItem from="1738387961826" duration="2447000" />
       <workItem from="1738390762214" duration="5335000" />
       <workItem from="1738554722289" duration="1038000" />
+      <workItem from="1738557124501" duration="947000" />
     </task>
     <task id="LOCAL-00001" summary="Chapter4/5">
       <option name="closed" value="true" />
