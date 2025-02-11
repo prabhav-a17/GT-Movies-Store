@@ -59,7 +59,7 @@ ROOT_URLCONF = 'moviesstore.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / "templates"],  # Make sure this directory contains 'accounts/orders.html'
+        'DIRS': [os.path.join(BASE_DIR, 'moviesstore/templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
