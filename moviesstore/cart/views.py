@@ -3,6 +3,7 @@ from movies.models import Movie
 from .utils import calculate_cart_total
 
 def index(request):
+    """Display the shopping cart."""
     cart_total = 0
     movies_in_cart = []
     cart = request.session.get('cart', {})
@@ -21,11 +22,25 @@ def index(request):
     return render(request, 'cart/index.html', template_data)
 
 def add(request, id):
-    get_object_or_404(Movie, id=id)
+    """Adds a movie to the cart or updates quantity if it already exists."""
+    if request.method != 'POST':
+        return redirect('movies.show', id=id)  # Redirect if accessed via GET
+
+    get_object_or_404(Movie, id=id)  # Ensure movie exists
     cart = request.session.get('cart', {})
-    cart[id] = request.POST.get('quantity', 1)  # Default to 1 if not provided
+
+    quantity = int(request.POST.get('quantity', 1))  # Convert quantity to int
+
+    # Ensure quantity is always stored as an integer
+    cart[str(id)] = int(cart.get(str(id), 0)) + quantity
+
     request.session['cart'] = cart
+    request.session.modified = True  # Ensure session updates
+
     return redirect('cart.index')
+
 def clear(request):
+    """Clears the shopping cart."""
     request.session['cart'] = {}
+    request.session.modified = True  # Ensure session updates
     return redirect('cart.index')
