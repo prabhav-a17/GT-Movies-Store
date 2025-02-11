@@ -26,6 +26,7 @@ def add(request, id):
     cart[id] = request.POST.get('quantity', 1)  # Default to 1 if not provided
     request.session['cart'] = cart
     return redirect('cart.index')
+
 def clear(request):
     request.session['cart'] = {}
     return redirect('cart.index')
