@@ -134,11 +134,13 @@ STATICFILES_DIRS = [
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
 
+import os
+
 # Email settings for SendGrid
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.sendgrid.net'
-EMAIL_HOST_USER = 'apikey'  # This remains as the literal string 'apikey'
-EMAIL_HOST_PASSWORD = os.getenv('SENDGRID_API_KEY')
+EMAIL_HOST_USER = 'apikey'  # Must remain literally 'apikey'
+EMAIL_HOST_PASSWORD = os.getenv('SENDGRID_API_KEY')  # Reads the API key from an environment variable
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-DEFAULT_FROM_EMAIL = "jimbolimbo365@gmail.com" # Replace with your verified sender emailhe sender address you verified in SendGrid
+DEFAULT_FROM_EMAIL = "jimbolimbo365@gmail.com"  # Your verified sender email

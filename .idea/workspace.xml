@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="595ca71b-4711-47c6-8b58-a350f4d632aa" name="Changes" comment="Chapter4/5">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moviesstore/accounts/templates/accounts/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/moviesstore/accounts/templates/accounts/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moviesstore/accounts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/moviesstore/accounts/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moviesstore/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/moviesstore/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moviesstore/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/moviesstore/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moviesstore/moviesstore/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/moviesstore/moviesstore/settings.py" afterDir="false" />
-    </list>
+    <list default="true" id="595ca71b-4711-47c6-8b58-a350f4d632aa" name="Changes" comment="Chapter4/5" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -116,6 +109,7 @@
       <workItem from="1738554722289" duration="3021000" />
       <workItem from="1738957455503" duration="716000" />
       <workItem from="1739730142293" duration="5489000" />
+      <workItem from="1739736419248" duration="1510000" />
     </task>
     <task id="LOCAL-00001" summary="Chapter4/5">
       <option name="closed" value="true" />

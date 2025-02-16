@@ -4,7 +4,12 @@ import os
 import sys
 import os
 import certifi
+from dotenv import load_dotenv
 os.environ['SSL_CERT_FILE'] = certifi.where()
+
+load_dotenv()
+
+
 
 
 def main():
