@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="595ca71b-4711-47c6-8b58-a350f4d632aa" name="Changes" comment="Chapter4/5" />
+    <list default="true" id="595ca71b-4711-47c6-8b58-a350f4d632aa" name="Changes" comment="Chapter4/5">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moviesstore/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/moviesstore/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moviesstore/movies/templates/movies/edit_review.html" beforeDir="false" afterPath="$PROJECT_DIR$/moviesstore/movies/templates/movies/edit_review.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
